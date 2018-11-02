@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/main.js" defer></script>
+	<script src="js/smooth_scrolling.js" defer></script>
+	<title>Vitist</title>
+</head>
+<body>
+
+<nav class="navbar navbar-fixed-top">
+	<div class="container">
+		<div class="col-lg-2 col-md-2">
+			<a href="/">
+	    		<img src="img/logo.png" class="img-responsive logo" alt="logo">
+	    	</a>
+		</div>
+	    <ul class="nav navbar-nav">
+	    	<li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="">
+			    	Одежда на каждый день
+			    	<span class="glyphicon glyphicon-chevron-down"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			    	<div class="container">
+			    		<div class="col-lg-2 col-md-2"></div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			Платья
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Сарафаны
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Блузы
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Туники
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Юбки
+					    		</a>
+					    	</li>
+			    		</div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			Костюмы
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Офисный стиль
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Жилеты
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Пиджаки
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			Кардиганы
+					    		</a>
+					    	</li>
+					    </div>
+			    	</div>
+			    </ul>
+		    </li>
+
+		    <li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="">
+			    	Спортивная одежда
+			    	<span class="glyphicon glyphicon-chevron-down"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			    	<div class="container">
+			    		<div class="col-lg-4 col-md-4"></div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			1
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			2
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			3
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			4
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			5
+					    		</a>
+					    	</li>
+			    		</div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			6
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			7
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			8
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			9
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			10
+					    		</a>
+					    	</li>
+					    </div>
+			    	</div>
+			    </ul>
+		    </li>
+
+		    <li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="">
+			    	Верхняя одежда
+			    	<span class="glyphicon glyphicon-chevron-down"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			    	<div class="container">
+			    		<div class="col-lg-6 col-md-6"></div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			1
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			2
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			3
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			4
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			5
+					    		</a>
+					    	</li>
+			    		</div>
+			    		<div class="col-lg-2 col-md-2">
+			    			<li>
+					    		<a href="">
+					    			6
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			7
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			8
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			9
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			10
+					    		</a>
+					    	</li>
+					    </div>
+			    	</div>
+			    </ul>
+		    </li>
+		    <li>
+			    <a href="">
+			    	Скидки
+			    </a>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right pad_right_15">
+			<li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="">
+			    	UAH
+			    	<span class="glyphicon glyphicon-chevron-down dark_grey"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			    	<div class="container">
+			    		<div class="col-lg-9 col-md-9"></div>
+			    		<div class="col-lg-3 col-md-3">
+			    			<li>
+					    		<a href="">
+					    			USD
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			RUB
+					    		</a>
+					    	</li>
+					    </div>
+			    	</div>
+			    </ul>
+		    </li>
+
+		    <li class="dropdown">
+			    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="">
+			    	RU
+			    	<span class="glyphicon glyphicon-chevron-down dark_grey"></span>
+			    </a>
+			    <ul class="dropdown-menu">
+			    	<div class="container">
+			    		<div class="col-lg-9 col-md-9"></div>
+			    		<div class="col-lg-3 col-md-3">
+			    			<li>
+					    		<a href="">
+					    			ENG
+					    		</a>
+					    	</li>
+					    	<li>
+					    		<a href="">
+					    			UA
+					    		</a>
+					    	</li>
+					    </div>
+			    	</div>
+			    </ul>
+		    </li>
+		    <li>
+		    	<a href="">
+		    		<img src="img/search_icon.png" alt="search">
+		    	</a>
+		    </li>
+		    <li>
+		    	<a href="">
+		    		<img src="img/login_icon.png" alt="login">
+		    	</a>
+		    </li>
+		    <li>
+		    	<a href="">
+		    		<img src="img/cart_icon.png" alt="cart">
+		    		<div class="cart_counter">12</div>
+		    	</a>
+		    </li>
+		    <li>
+		    	<a class="open_menu_btn" href="#" onclick="openMenu()">
+		    		<img src="img/menu_btn_icon.png" alt="menu_btn">
+		    	</a>
+		    </li>
+
+		</ul>
+	</div>
+</nav>
+
+<section class="section_1">
+	<div class="container">
+		<div class="col-md-6 hidden-xs"></div>
+		<div class="col-md-6 col-xs-12">
+			<div class="info_block">
+				<h1>SALE</h1>
+				<h2>
+					<span class="dash">
+						— 
+					</span>
+					до 30% на одежду
+				</h2>
+				<a href="#section_3" class="btn scrollLinkTwo">
+					Перейти к покупкам
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+			<div class="row">
+				<a class="scroll_btn scrollLink" href="#section_2">
+					<div class="floating">
+						<span class="dash">
+							— 
+						</span>
+						scroll
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section_2" id="section_2">
+	<div class="container">
+		<div class="col-md-6 hidden-xs">
+			
+		</div>
+		<div class="col-md-6">
+			<h2>
+				Женская одежда оптом <br>
+				от производителя <br>
+				creative в украине <br>
+			</h2>
+			<p>
+				Женская одежда оптом от производителя в Украине пользуется огромным спросом у владельцев магазинов и организаторов совместных покупок в течение многих лет. Бренд Vitist занимается разработкой и пошивом одежды с 2012 года. Каждые 3 месяца мы представляем новые коллекции, которые соответствуют последним тенденциям мира моды. <br><br>
+				Здесь вы можете купить женскую одежду оптом или в розницу по разумной цене. Модельер, конструктор и технолог торговой марки Vitist разрабатывают актуальные модели, которые прекрасно садятся на разные фигуры, способны подчеркнуть все их достоинства и скрыть недостатки. Каждое изделие представлено в разнообразной цветовой гамме и размерах.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="section_3" id="section_3">
+	<div class="container">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="60000">
+			<div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_1.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Коктейльное платье-кейп <br> 
+			      				Каролайн
+			      			</h4>
+			      			<h3>600 грн</h3>
+			      			<h5>
+			      				<span class="strikethrough">1200 грн</span>
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			      	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_2.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Платье из органзы <br> 
+								«DeLakrua»
+			      			</h4>
+			      			<h3>
+			      				469 грн
+			      				<span>опт</span>
+			      			</h3>
+			      			<h5>
+			      				849 грн
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			      	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_3.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Стильное черное платье <br>
+								«Ashley»
+			      			</h4>
+			      			<h3>
+			      				800 грн
+			      				<span>опт</span>
+			      			</h3>
+			      			<h5>
+			      				1600 грн
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			    </div>
+			    <div class="item">
+			    	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_1.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Коктейльное платье-кейп <br> 
+			      				Каролайн
+			      			</h4>
+			      			<h3>600 грн</h3>
+			      			<h5>
+			      				<span class="strikethrough">1200 грн</span>
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			      	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_2.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Платье из органзы <br> 
+								«DeLakrua»
+			      			</h4>
+			      			<h3>
+			      				469 грн
+			      				<span>опт</span>
+			      			</h3>
+			      			<h5>
+			      				849 грн
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			      	<div class="col-md-4">
+			      		<div class="row">
+			      			<img class="goods" src="img/goods_3.png" alt="goods">
+			      		</div>
+			      		<div class="row caption">
+			      			<h4>
+			      				Стильное черное платье <br>
+								«Ashley»
+			      			</h4>
+			      			<h3>
+			      				800 грн
+			      				<span>опт</span>
+			      			</h3>
+			      			<h5>
+			      				1600 грн
+			      				<span>розница</span> 
+			      			</h5> 
+			      			<a href="#" class="btn">
+								В корзину
+								<img src="img/cart_icon.png" alt="cart_icon">
+							</a>
+			      		</div>
+			      	</div>
+			    </div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<img src="img/arrow_left.png" alt="arrow_left">
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<img src="img/arrow_right.png" alt="arrow_right">
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="row">
+			<a class="to_catalog" href="">
+				Перейти в каталог
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+</section>
+
+<footer> 
+	<div class="container">
+		<div class="col-md-2">
+			<img src="img/logo_2(inverse).png" alt="logo">
+		</div>
+		<div class="col-md-10">
+			<div class="links">
+				<a href="">О компании</a>
+				<a href="">Покупателям</a>
+				<a href="">Оплата и доставка</a>
+				<a href="">Условия опта</a>
+				<a href="">Дропшиппинг</a>
+				<a href="">Контакты</a>
+			</div>
+			<div class="contacts_block">
+				<div class="tel_block">
+					<a class="tel" href="tel:+380992320308"> +38 099 232-03-08 </a> <br>
+					<a class="tel" href="tel:+380972328807"> +38 097 232-88-07 </a>
+				</div>
+				<a class="btn" href="">
+					Задать вопрос
+				</a>
+				<div class="social_links_block">
+					<a class="fb_link_block" href="">
+						<img src="img/fb_logo.png" alt="fb">
+					</a>
+					<a class="inst_link_block" href="">
+						<img src="img/inst_logo.png" alt="inst">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container">
+		<span class="copyright">© Creative-2018. Все права защищены</span>
+		<span class="creator">
+			Создание сайта 
+			<a target="_blank" href="https://webakula.ua/">
+				<img src="img/webakula_logo.png" alt="webakula_logo">
+			</a>
+		</span>
+	</div>
+</footer>
+
+<div class="desktop_menu" id="desktop_menu">
+	<img class="close_menu_btn" onclick="closeMenu()" src="img/close_icon.png" alt="close">
+	<div class="row">
+		<a href="">О компании</a>
+		<a href="">Покупателям</a>
+		<a href="">Оплата и доставка</a>
+		<a href="">Условия опта</a>
+		<a href="">Дропшиппинг</a>
+		<a href="">Контакты</a>
+	</div>
+</div>	
+
+</body>
+</html>
